@@ -1,0 +1,516 @@
+#contact-us .container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+#contact-us h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff6f61;
+}
+
+#contact-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#contact-us input,
+#contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#contact-us textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 150px;
+}
+
+#contact-us button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ff6f61;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+#contact-us button:hover {
+    background-color: #ff3b2f;
+}
+
+
+/* Pricing Section */
+#pricing .pricing-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#pricing .card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#pricing .card h3 {
+    font-size: 24px;
+    color: #ff6f61;
+}
+
+#pricing .card p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#pricing .card ul {
+    list-style: none;
+    padding: 0;
+}
+
+#pricing .card ul li {
+    margin: 10px 0;
+}
+
+#pricing .card button {
+    margin-top: 20px;
+}
+
+/* Diets Section */
+#diets .diet-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#diets .diet-item {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#diets .diet-item h3 {
+    font-size: 24px;
+    color: #ff6f61;
+}
+
+#diets .diet-item p {
+    font-size: 16px;
+}
+
+/* Protein Materials Section */
+#protein-materials .protein-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#protein-materials .protein-item {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#protein-materials .protein-item h3 {
+    font-size: 24px;
+    color: #ff6f61;
+}
+
+#protein-materials .protein-item p {
+    font-size: 16px;
+}
+
+/* Gym Branches Section */
+#gym-branches .branch-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#gym-branches .branch-item {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#gym-branches .branch-item h3 {
+    font-size: 24px;
+    color: #ff6f61;
+}
+
+#gym-branches .branch-item p {
+    font-size: 16px;
+}
+
+
+/* Add hover animations */
+.navbar li a {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar li a:hover {
+    transform: scale(1.1); /* Zoom effect */
+    color: #ff6f61;
+}
+
+.btn {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05); /* Slight zoom */
+    background-color: #ff3b2f;
+}
+
+/* Fade-in animation for sections */
+section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.testimonial-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.testimonial {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+.footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #ff6f61;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #ff6f61;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Modal Styling */
+.modal-content {
+    background: rgba(0, 0, 0, 0.9);
+    color: black;
+    border-radius: 15px;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal-title {
+    color: #ff6f61;
+}
+
+.modal-body .form-group {
+    margin-bottom: 15px;
+}
+
+.modal-body label {
+    font-weight: bold;
+}
+
+.modal-body input,
+.modal-body select {
+    background: rgba(255, 255, 255, 0.1);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.modal-body input:focus,
+.modal-body select:focus {
+
+    box-shadow: 0 0 5px #ff6f61;
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal-footer .btn-secondary {
+    background-color: #6c757d;
+}
+
+.modal-footer .btn-primary {
+    background-color: #ff6f61;
+    border: none;
+}
+
+.modal-footer .btn-primary:hover {
+    background-color: #ff3b2f;
+}
+
+/* Testimonials Section */
+#testimonials .testimonial-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+#testimonials .testimonial {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#testimonials .testimonial-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+#testimonials .testimonial p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#testimonials .testimonial h4 {
+    font-size: 18px;
+    color: #ff6f61;
+    margin: 0;
+}
+
+/* Video Modal Styling */
+.modal-content {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    border-radius: 15px;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal-title {
+    color: #ff6f61;
+}
+
+.modal-body video {
+    border-radius: 10px;
+}
+
+/* Testimonial Image Hover Effect */
+.testimonial-img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-img:hover {
+    transform: scale(1.1);
+}
+
+
+/* Header Styles */
+.header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    filter: invert(100%);
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6f61;
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff6f61 !important;
+}
+
+.btn-outline-light {
+    border-color: white;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+    color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 5px 0;
+    }
+
+    .btn-outline-light {
+        margin-top: 10px;
+    }
+}
+
